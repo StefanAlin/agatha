@@ -13,7 +13,7 @@ body{
 
 header{
     width:100%;
-    background-image: url("/images/Group\ 54.png");
+    background-image: url("./images/Group\ 54.png");
     background-size: cover;
     background-repeat: no-repeat;
     min-height:222px;
@@ -189,7 +189,7 @@ header{
 }
 
 footer{
-    background-image: url("/images/Group\ 56.png");
+    background-image: url("./images/Group\ 56.png");
     min-height:125px;
     width:100%;
     background-size: cover;
