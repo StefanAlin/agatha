@@ -24,6 +24,6 @@ var x = setInterval(function() {
   // If the count down is finished, write some text
   if (distance < 0) {
     clearInterval(x);
-    document.getElementsByClassName("counter").innerHTML = "Salut, probabil esti deja la biserica, multumim!";
+    document.querySelector(".counter").innerHTML = "Salut, probabil esti deja la biserica, multumim!";
   }
 }, 1000);
