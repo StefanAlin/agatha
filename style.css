@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&display=swap');
 
 *{
     margin:0;
@@ -8,18 +9,10 @@
 body{
     height:100vh;
     width:100vw;
-    background-color: #FCF2FF;
-}
-
-header{
-    width:100%;
-    background-image: url("./images/Group\ 54.png");
-    background-size: cover;
+    background-color: #ffffff;
+    background-image:url("./images/bg-top.png");
     background-repeat: no-repeat;
-    min-height:222px;
-    display:flex;
-    justify-content: center;
-    align-items:center;
+    padding-top:130px;
 }
 
 .ts-square{
@@ -34,7 +27,7 @@ header{
 }
 
 .nume{
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Dancing Script', cursive;
     font-size:20px;
     padding:10px;
     color:#4E3C3C;
@@ -55,28 +48,44 @@ header{
     padding:20px;
 }
 
+.descriere p{
+    font-family: 'Poppins', sans-serif;
+    font-size:10px;
+    font-weight: 600;
+    text-align: center; 
+    padding:0 40px;
+    margin: 0 auto;
+}
+
+
 .center-items img{
     padding:20px;
 }
 
 .inv-txt{
-    font-family: 'Patrick Hand', cursive;
-    font-size:14px;
-    color:#E7A12E;
+    font-family: 'Dancing Script', cursive;
+    font-size:24px;
+    color:#000000;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom:20px;
 }
 .nume-mid{
-    color:#E7A12E;
-    font-size:14px;
-    font-family: 'Patrick Hand', cursive;
+    color:#FB2200;
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 800;
+    margin-bottom:60px;
 }
 
 .counter{
     height:80px;
-    background-color:white;
+    background-color:rgba(255, 255, 255, 0);
     display:flex;
     justify-content: space-around;
     align-items:center;
     padding:0 45px;
+    
 }
 .counter p{
     display:flex;
@@ -93,9 +102,9 @@ header{
 .counter hr{
     width:2px;
     height:20px;
-    border:1px solid #E7A12E;
-    background-color:#E7A12E;
-    color:#E7A12E;
+    border:1px solid #FB2200;
+    background-color:#FB2200;
+    color:#FB2200;
 }
 
 .parinti{
@@ -106,21 +115,24 @@ header{
     padding:20px;
 }
 .parinti h2{
-    color:#E7A12E;
-    font-size:14px;
-    font-family: 'Patrick Hand', cursive;
+    color:#000000;
+    font-size:20px;
+    font-family: 'Dancing Script', cursive;
+    margin-bottom:16px;
 }
 
 .parinti p{
-    font-family: 'Patrick Hand', cursive;
-    font-size:12px;
-    color:#4E3C3C;
+    font-family: 'Dancing Script', cursive;
+    font-size:16px;
+    font-weight: bold;
+    color:#FB2200;
 }
 
-.parinti span{
-    font-family: 'Patrick Hand', cursive;
-    font-size:12px;
-    color:#4E3C3C;
+.parinti h4{
+    font-family: 'Dancing Script', cursive;
+    font-size:14px;
+    font-weight: bold;
+    color:#000000;
     padding:10px;
 }
 
@@ -143,7 +155,7 @@ header{
     font-size:14px;
     color:#4E3C3C;
     margin-bottom:20px;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 .imagini{
@@ -158,20 +170,20 @@ header{
     padding-bottom:10px;
 }
 .rel{
-    color:#CD7F18;
-    font-family: 'Patrick Hand', cursive;
+    color:#FB2200;
+    font-family: 'Dancing Script', cursive;
     font-size:14px;
     margin-bottom:10px;
 }
 .ceremonie p{
     font-size:8px;
     padding:5px 0 5px 0;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 .petrecere p{
     font-size:8px;
     padding:5px 0 5px 0;
-    font-family: 'Patrick Hand', cursive;
+    font-family: 'Dancing Script', cursive;
 }
 
 .btn{
@@ -190,10 +202,9 @@ header{
 }
 
 footer{
-    background-image: url("./images/Group\ 56.png");
-    min-height:125px;
-    width:100%;
-    background-size: cover;
+    background-image: url("./images/agatha.png");
+    height:208px;
+    background-size: fit;
     background-repeat: no-repeat;
     
 }
