@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <canvas id="my-canvas"></canvas>
     <main>
         <div class="center-items">
             <p class="inv-txt">Am crescut!<br>
@@ -41,5 +42,25 @@
     </footer>
 
 <script src="app.js"></script>    
+<script src="index.min.js"></script>
+
+<script>
+
+var confettiElement = document.getElementById('my-canvas');
+var confettiSettings = {
+    target:confettiElement,
+    "max":"50",
+    "size":"1",
+    "animate":true,
+    props:["circle","square","triangle","line",
+    {"type":"svg","src":"../images/Ballon.svg","size":25,"weight":0.3}],
+    "colors":[[165,104,246],[230,61,135],[0,199,228],[253,214,126]],
+    "clock":"25",
+    "rotate":false,
+    "start_from_edge":false,
+    "respawn":true};
+var confetti = new ConfettiGenerator(confettiSettings);
+confetti.render();
+</script>
 </body>
 </html>

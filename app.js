@@ -27,3 +27,6 @@ var x = setInterval(function() {
     document.querySelector(".counter").innerHTML = "Salut, probabil esti deja la biserica, multumim!";
   }
 }, 1000);
+
+
+

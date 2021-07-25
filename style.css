@@ -208,3 +208,7 @@ footer{
     background-repeat: no-repeat;
     
 }
+#my-canvas{
+    position:absolute;
+    top:0;
+}
