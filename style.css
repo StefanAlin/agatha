@@ -10,7 +10,7 @@ body{
     height:100vh;
     width:100vw;
     background-color: #ffffff;
-    background-image:url("./images/bg-top.png");
+    background-image:url("../images/bg-top.png");
     background-repeat: no-repeat;
     padding-top:130px;
 }
@@ -202,7 +202,7 @@ body{
 }
 
 footer{
-    background-image: url("./images/agatha.png");
+    background-image: url("../images/agatha.png");
     height:208px;
     background-size: fit;
     background-repeat: no-repeat;
